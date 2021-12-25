@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kreiraj peticijo</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-section-1">
+        <button>Dodaj svojo donemo</button>
+        <a href="#"><i class="fa-solid fa-bank"></i></a>
+        <a href="#"><i class="fa-brands fa-blogger"></i></a>
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="header-section-2">
+        <img src="img/publishwall.svg" />
+      </div>
+      <div class="header-section-3">
+        <div class="user">
+          <img src="img/placeholder2.jpg" />
+          <h3 class="user-name">Sara</h3>
+        </div>
+        <div class="header-links">
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#"><i class="fa-solid fa-users"></i></a>
+          <a href="#"><i class="fa-solid fa-bell"></i></a>
+          <a href="#"><i class="fa-solid fa-house-chimney"></i></a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidebar-links-1">
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-regular fa-envelope"></i
+            ></span>
+            <h4>Sporočila</h4>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-regular fa-comment-dots"></i
+            ></span>
+            <h4>Klepeti</h4>
+          </div>
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <h4>Spletna trgovina</h4>
+          </div>
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-regular fa-envelope"></i
+            ></span>
+            <h4>Paywall transakcije</h4>
+          </div>
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-regular fa-comment-dots"></i
+            ></span>
+            <h4>Donacije</h4>
+          </div>
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <h4>Kontakti</h4>
+          </div>
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-regular fa-envelope"></i
+            ></span>
+            <h4>Strani / Skupine</h4>
+          </div>
+          <div class="sidebarOption">
+            <span class="material-icons"
+              ><i class="fa-regular fa-comment-dots"></i
+            ></span>
+            <h4>Objave</h4>
+          </div>
+        </div>
+        <div class="sidebar-links-2">
+          <h3>E-mesta</h3>
+          <div class="link">
+            <div style="display: flex">
+              <i class="fa-solid fa-p placeholder-icon"></i>
+              <h4>Ljubljana</h4>
+            </div>
+            <i class="fa-solid fa-x x"></i>
+          </div>
+        </div>
+        <div class="sidebar-links-3">
+          <h3>Bližnjice</h3>
+          <div class="link">
+            <i class="fa-solid fa-p placeholder-icon"></i>
+            <h4>Požareport</h4>
+          </div>
+          <div class="link">
+            <i class="fa-solid fa-p placeholder-icon"></i>
+            <h4>Kmečki glas</h4>
+          </div>
+          <div class="link">
+            <i class="fa-solid fa-p placeholder-icon"></i>
+            <h4>Odpoved</h4>
+          </div>
+          <div class="link">
+            <i class="fa-solid fa-p placeholder-icon"></i>
+            <h4>Požareport</h4>
+          </div>
+        </div>
+      </aside>
+      <div class="feed">
+        <div class="feed-header">
+          <h2>Kreiraj peticijo</h2>
+        </div>
+        <div class="inputBox">
+          <div class="input-field">
+            <input
+              type="text"
+              onfocusout="textOpacity(0, this)"
+              onfocus="textOpacity(1, this)"
+            />
+            <label for="Naslov">Naslov</label>
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              onfocusout="textOpacity(0, this)"
+              onfocus="textOpacity(1, this)"
+            />
+            <label for="Naslov">podnaslov</label>
+          </div>
+          <div class="input-field">
+            <textarea
+              cols="30"
+              rows="10"
+              onfocusout="textOpacity(0, this)"
+              onfocus="textOpacity(1, this)"
+              style="padding: 20px 10px"
+            ></textarea>
+            <label for="Naslov" style="bottom: 160px">Nagovor</label>
+          </div>
+        </div>
+        <h3>Zaključek peticije</h3>
+        <div class="date-input">
+          <img src="img/Calendar.png" alt="" />
+          <input type="date" />
+        </div>
+        <div class="forms">
+          <h2>Ostalo</h2>
+          <div class="input-field">
+            <textarea
+              cols="30"
+              rows="10"
+              onfocusout="textOpacity(0, this)"
+              onfocus="textOpacity(1, this)"
+              style="padding: 20px 10px"
+            ></textarea>
+            <label for="Naslov" style="bottom: 160px"
+              >Peticijske zahteve (neobvezno)</label
+            >
+          </div>
+          <div class="input-field">
+            <textarea
+              cols="30"
+              rows="10"
+              onfocusout="textOpacity(0, this)"
+              onfocus="textOpacity(1, this)"
+              style="padding: 20px 10px"
+            ></textarea>
+            <label for="Naslov" style="bottom: 160px">Pravno obvestilo</label>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="btn1 btn">
+            Komentirajo lahko vsi <i class="fas fa-caret-down"></i>
+          </button>
+          <button class="btn2 btn">Objavi</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
